@@ -3,7 +3,7 @@ import faker from 'faker';
 
 const Button = () => {
   return (
-    <div className='container'>
+    <div className='container mb-5'>
       <div className='row'>
         <div className='col-sm-6'>
           <button type='button' className='btn btn-warning'>

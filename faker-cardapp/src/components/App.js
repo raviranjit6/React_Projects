@@ -3,7 +3,7 @@ import CardLayout from './card/CardLayout';
 
 const App = () => {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <div className='row'>
         <CardLayout />
         <CardLayout />
