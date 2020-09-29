@@ -1,15 +1,13 @@
 import React from 'react';
+import faker from 'faker';
 
 const Card = () => {
   return (
     <div>
-      <img src='' alt='CardImg' className='card-img-top' />
+      <img src={faker.random.image()} alt='CardImg' className='card-img-top' />
       <div className='card-body'>
-        <h5 className='card-title'>Primary card title</h5>
-        <p className='card-text'>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+        <h5 className='card-title'>{faker.name.firstName()}</h5>
+        <p className='card-text'>{faker.address.country()}</p>
       </div>
     </div>
   );

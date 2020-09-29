@@ -12,6 +12,7 @@ const App = () => {
         <CardLayout />
         <CardLayout />
         <CardLayout />
+        <CardLayout />
       </div>
     </div>
   );

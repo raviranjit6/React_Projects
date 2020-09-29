@@ -5,7 +5,7 @@ const CardLayout = () => {
   return (
     <div className='col-sm-3'>
       <div
-        className='card text-white bg-success mb-3'
+        className='card text-white bg-primary mb-3'
         style={{ maxWidth: '18rem' }}
       >
         <Card />
